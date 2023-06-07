@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 Spacer()
-                NavigationLink(destination: BrainPACView(game: BrainPACGame.bart).onAppear{print("loading BART")}) {
+                NavigationLink(destination: BrainPACView(game: BrainPACGame.bart)) {
                     Text("Play BART")
                 }
                 Spacer()
@@ -22,7 +22,6 @@ struct ContentView: View {
                 }
                 Spacer()
             }
-            .padding()
         }
     }
 }

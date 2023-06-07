@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BrainPark/brainpac-nih-ios",
       "state" : {
-        "branch" : "prerelease",
-        "revision" : "34be47c7a474954046e6703c431426a3c4a1b3cb"
+        "branch" : "main",
+        "revision" : "d632d86283f3918cd9ffbfe02d6303227b0e0f33"
       }
     },
     {

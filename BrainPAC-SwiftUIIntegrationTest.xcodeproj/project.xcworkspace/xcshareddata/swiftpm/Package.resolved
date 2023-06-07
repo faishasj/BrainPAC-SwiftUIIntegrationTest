@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "brainpac-nih-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BrainPark/brainpac-nih-ios",
+      "state" : {
+        "branch" : "prerelease",
+        "revision" : "34be47c7a474954046e6703c431426a3c4a1b3cb"
+      }
+    },
+    {
+      "identity" : "brainpac-nih-unityframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BrainPark/brainpac-nih-unityframework.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "077333a9802f96b58dfa89a1c0e2cee2082c36d4"
+      }
+    }
+  ],
+  "version" : 2
+}

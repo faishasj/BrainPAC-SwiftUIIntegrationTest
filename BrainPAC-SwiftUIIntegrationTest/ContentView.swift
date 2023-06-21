@@ -8,16 +8,21 @@
 import SwiftUI
 import BrainPACNIH
 
+func onSessionComplete(resultsPath: String, schemaUrl: String) -> Void {
+    print(resultsPath)
+    print(schemaUrl)
+}
+
 struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
                 Spacer()
-                NavigationLink(destination: BrainPACView(game: BrainPACGame.bart)) {
+                NavigationLink(destination: BrainPACView(game: BrainPACGame.bart, onSessionComplete: onSessionComplete)) {
                     Text("Play BART")
                 }
                 Spacer()
-                NavigationLink(destination: BrainPACView(game: BrainPACGame.sst)) {
+                NavigationLink(destination: BrainPACView(game: BrainPACGame.sst, onSessionComplete: onSessionComplete)) {
                     Text("Play SST")
                 }
                 Spacer()

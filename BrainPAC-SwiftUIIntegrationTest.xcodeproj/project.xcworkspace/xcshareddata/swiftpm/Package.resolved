@@ -6,7 +6,7 @@
       "location" : "https://github.com/BrainPark/brainpac-nih-ios",
       "state" : {
         "branch" : "main",
-        "revision" : "d632d86283f3918cd9ffbfe02d6303227b0e0f33"
+        "revision" : "73877a5cc1f25ed69e67b796ddbd2a817fa661fd"
       }
     },
     {
@@ -15,7 +15,7 @@
       "location" : "https://github.com/BrainPark/brainpac-nih-unityframework.git",
       "state" : {
         "branch" : "main",
-        "revision" : "077333a9802f96b58dfa89a1c0e2cee2082c36d4"
+        "revision" : "995e7e618e6438afa700bc8490d16b54f44ee26a"
       }
     }
   ],
